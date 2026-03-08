@@ -1,7 +1,7 @@
-$(warning USE_PREBUILT_KERNEL is enabled: using kernel prebuilts from device/oneplus/macan-kernel)
+$(warning USE_PREBUILT_KERNEL is enabled: using kernel prebuilts from device/oneplus/macanc-kernel)
 
 TARGET_NO_KERNEL_OVERRIDE := true
-KERNEL_PREBUILT_PATH := device/oneplus/macan-kernel
+KERNEL_PREBUILT_PATH := device/oneplus/macanc-kernel
 BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PREBUILT_PATH)/images/
 BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PREBUILT_PATH)/images/dtbo.img
 PRODUCT_COPY_FILES += \
