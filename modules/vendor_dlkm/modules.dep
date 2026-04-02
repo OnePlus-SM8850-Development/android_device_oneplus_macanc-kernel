@@ -245,6 +245,7 @@
 /vendor/lib/modules/gsim.ko: /vendor/lib/modules/qcom_va_minidump.ko
 /vendor/lib/modules/wsa884x_dlkm.ko: /vendor/lib/modules/swr_dlkm.ko /vendor/lib/modules/wcd_core_dlkm.ko
 /vendor/lib/modules/oplus_bsp_fw_update.ko:
+/vendor/lib/modules/oplus_network_fast_bwe.ko: /vendor/lib/modules/oplus_network_data_module.ko
 /vendor/lib/modules/smmu_proxy_dlkm.ko: /vendor/lib/modules/smcinvoke_dlkm.ko
 /vendor/lib/modules/oplus_bsp_sigkill_diagnosis.ko:
 /vendor/lib/modules/boot_stats.ko:
@@ -265,6 +266,7 @@
 /vendor/lib/modules/ua_cpu_ioctl.ko:
 /vendor/lib/modules/sys_pm_vx.ko: /vendor/lib/modules/qcom_stats.ko
 /system/lib/modules/vmw_vsock_virtio_transport.ko:
+/vendor/lib/modules/oplus_network_sk_predict.ko: /vendor/lib/modules/oplus_network_data_module.ko
 /vendor/lib/modules/qcom_voltage_adj.ko:
 /vendor/lib/modules/oplus_bsp_dfr_theia.ko: /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/qrng_dlkm.ko:
@@ -407,6 +409,7 @@
 /vendor/lib/modules/coresight-tgu.ko: /vendor/lib/modules/coresight.ko
 /vendor/lib/modules/ipam.ko: /vendor/lib/modules/usb_f_gsi.ko /vendor/lib/modules/dwc3-msm.ko /vendor/lib/modules/repeater.ko /vendor/lib/modules/redriver.ko /vendor/lib/modules/rmnet_mem.ko /vendor/lib/modules/qcom_ramdump.ko /vendor/lib/modules/gsim.ko /vendor/lib/modules/qcom_va_minidump.ko /vendor/lib/modules/wcd_usbss_i2c.ko /vendor/lib/modules/oplus_chg_v2.ko /vendor/lib/modules/qti_pmic_glink.ko /vendor/lib/modules/oplus_magcvr_notify.ko /vendor/lib/modules/oplus_cfg.ko /vendor/lib/modules/oplus_bsp_dft_olc.ko /vendor/lib/modules/ufcs_class.ko /vendor/lib/modules/test-kit.ko /vendor/lib/modules/oplus_mm_kevent_fb.ko /vendor/lib/modules/oplus_mm_kevent.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qcom_pdr_msg.ko /vendor/lib/modules/oplus_bsp_dft_kernel_fb.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/glink_probe.ko: /vendor/lib/modules/qcom_glink_spss.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
+/vendor/lib/modules/oplus_network_dns_optimizer.ko: /vendor/lib/modules/oplus_network_data_module.ko
 /vendor/lib/modules/oplus_network_tcpdump_enhance.ko:
 /vendor/lib/modules/pci_phy_access.ko: /vendor/lib/modules/eom_driver.ko
 /vendor/lib/modules/oplus_ft3683g.ko: /vendor/lib/modules/oplus_hbp_core.ko /vendor/lib/modules/panel_event_notifier.ko /vendor/lib/modules/oplus_bsp_tp_notify.ko

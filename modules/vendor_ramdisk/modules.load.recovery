@@ -412,7 +412,9 @@ oplus_network_app_monitor.ko
 oplus_network_data_module.ko
 oplus_network_dns_cache.ko
 oplus_network_dns_hook.ko
+oplus_network_dns_optimizer.ko
 oplus_network_esim.ko
+oplus_network_fast_bwe.ko
 oplus_network_game_first.ko
 oplus_network_kernel_state_monitor.ko
 oplus_network_linkpower_module.ko
@@ -427,6 +429,7 @@ oplus_network_satellite_rsmc.ko
 oplus_network_sched.ko
 oplus_network_score.ko
 oplus_network_sim_detect.ko
+oplus_network_sk_predict.ko
 oplus_network_snapshot.ko
 oplus_network_stats_calc.ko
 oplus_network_tcpdump_enhance.ko
