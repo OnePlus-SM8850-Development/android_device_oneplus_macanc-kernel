@@ -64,6 +64,7 @@
 /lib/modules/oplus_bsp_tp_nt36532_noflash.ko: /lib/modules/oplus_bsp_tp_novatek_common.ko /lib/modules/oplus_bsp_tp_common.ko /lib/modules/device_info.ko /lib/modules/oplus_bsp_fw_update.ko /lib/modules/panel_event_notifier.ko /lib/modules/oplus_bsp_bootmode.ko /lib/modules/oplus_charger_present.ko /lib/modules/oplus_ftm_mode.ko /lib/modules/oplus_bsp_tp_custom.ko /lib/modules/oplus_bsp_boot_projectinfo.ko /lib/modules/buildvariant.ko /lib/modules/smem.ko /lib/modules/oplus_bsp_tp_notify.ko /lib/modules/oplusboot.ko
 /lib/modules/pmic-glink-debug.ko: /lib/modules/qti_pmic_glink.ko /lib/modules/pdr_interface.ko /lib/modules/qcom_pdr_msg.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qmi_helpers.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom_dma_heaps.ko /lib/modules/deferred-free-helper.ko /lib/modules/oplus_bsp_aizerofs.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/mem_buf_dev.ko /lib/modules/gh_mem_notifier.ko /lib/modules/gh_rm_heap_manager.ko /lib/modules/mem-prot.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko /lib/modules/oplus_bsp_mm_osvelte.ko /lib/modules/debug_symbol.ko /lib/modules/smem.ko
 /lib/modules/oplus_bsp_tp_custom.ko: /lib/modules/oplus_bsp_boot_projectinfo.ko /lib/modules/buildvariant.ko /lib/modules/smem.ko /lib/modules/oplusboot.ko
+/lib/modules/wonder.ko: /lib/modules/mac80211.ko /lib/modules/cfg80211.ko
 /lib/modules/leds-qpnp-vibrator-ldo.ko:
 /lib/modules/oplus_bsp_dfr_kmsg_wb.ko: /lib/modules/oplus_bsp_dfr_phoenix.ko /lib/modules/oplus_bsp_bootmode.ko /lib/modules/oplus_charger_present.ko /lib/modules/oplus_ftm_mode.ko /lib/modules/oplus_bsp_boot_projectinfo.ko /lib/modules/buildvariant.ko /lib/modules/smem.ko /lib/modules/oplusboot.ko
 /lib/modules/oplus_bsp_haptic_feedback.ko: /lib/modules/oplus_bsp_dft_kernel_fb.ko
@@ -342,7 +343,7 @@
 /lib/modules/stub-regulator.ko: /lib/modules/debug-regulator.ko
 /lib/modules/oplus_bsp_dft_olc.ko:
 /lib/modules/oplus_bsp_memleak_detect.ko:
-/lib/modules/oplus_network_linkpower_module.ko: /lib/modules/oplus_network_data_module.ko /lib/modules/qmi_helpers.ko
+/lib/modules/oplus_network_linkpower_module.ko: /lib/modules/oplus_network_data_module.ko /lib/modules/qmi_helpers.ko /lib/modules/panel_event_notifier.ko
 /lib/modules/oplus_bsp_uxmem_opt.ko: /lib/modules/oplus_bsp_sched_assist.ko /lib/modules/oplus_bsp_mm_osvelte.ko
 /lib/modules/oplus_bsp_dfr_ubt.ko:
 /lib/modules/oplus_network_oem_qmi.ko: /lib/modules/qmi_helpers.ko

@@ -961,6 +961,8 @@ alias of:N*T*Cqcom,spmi-glink-debug pmic_glink_debug
 alias of:N*T*Cqcom,spmi-glink-debugC* pmic_glink_debug
 alias of:N*T*Cqcom,i2c-glink-debug pmic_glink_debug
 alias of:N*T*Cqcom,i2c-glink-debugC* pmic_glink_debug
+alias of:N*T*Cgoogle,wonder-drv-v1 wonder
+alias of:N*T*Cgoogle,wonder-drv-v1C* wonder
 alias of:N*T*Cqcom,qpnp-vibrator-ldo leds_qpnp_vibrator_ldo
 alias of:N*T*Cqcom,qpnp-vibrator-ldoC* leds_qpnp_vibrator_ldo
 alias of:N*T*Cams,tof8801 camera_extension
@@ -2393,6 +2395,8 @@ alias of:N*T*Cqcom,cnss-direct-link cnss2
 alias of:N*T*Cqcom,cnss-direct-linkC* cnss2
 alias of:N*T*Cqcom,cnss-fig cnss2
 alias of:N*T*Cqcom,cnss-figC* cnss2
+alias of:N*T*Cqcom,cnss-vendor-wlan-wonder cnss2
+alias of:N*T*Cqcom,cnss-vendor-wlan-wonderC* cnss2
 alias pci:v0000168Cd0000003Esv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd00001100sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd00001101sv*sd*bc*sc*i* cnss2

@@ -116,6 +116,8 @@ alias of:N*T*Cqcom,spmi-glink-debug pmic_glink_debug
 alias of:N*T*Cqcom,spmi-glink-debugC* pmic_glink_debug
 alias of:N*T*Cqcom,i2c-glink-debug pmic_glink_debug
 alias of:N*T*Cqcom,i2c-glink-debugC* pmic_glink_debug
+alias of:N*T*Cgoogle,wonder-drv-v1 wonder
+alias of:N*T*Cgoogle,wonder-drv-v1C* wonder
 alias of:N*T*Cqcom,qpnp-vibrator-ldo leds_qpnp_vibrator_ldo
 alias of:N*T*Cqcom,qpnp-vibrator-ldoC* leds_qpnp_vibrator_ldo
 alias of:N*T*Cams,tof8801 camera_extension
